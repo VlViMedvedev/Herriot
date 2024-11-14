@@ -1,0 +1,93 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <receiveApplicationResultResponse xmlns="http://api.vetrf.ru/schema/cdm/application/ws-definitions">
+         <application xmlns="http://api.vetrf.ru/schema/cdm/application">
+            <applicationId>ae8dda90-8027-487e-b3ad-4fcb908d56e4</applicationId>
+            <status>COMPLETED</status>
+            <serviceId>herriot.service</serviceId>
+            <issuerId>3079afc7-00ea-41d2-82b6-db6f0f29e19d</issuerId>
+            <issueDate>2024-07-04T00:00:00+03:00</issueDate>
+            <rcvDate>2024-11-14T21:37:24+03:00</rcvDate>
+            <prdcRsltDate>2024-11-14T21:37:25+03:00</prdcRsltDate>
+            <result>
+               <hrt:getAnimalRegistrationByUuidResponse xmlns:hrt="http://api.vetrf.ru/schema/cdm/herriot/applications/v1" xmlns:bs="http://api.vetrf.ru/schema/cdm/base" xmlns:vd="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2" xmlns:dt="http://api.vetrf.ru/schema/cdm/dictionary/v2">
+                  <hrt:animalRegistration>
+                     <bs:uuid>590ae2bf-294a-4479-b548-dcd96f4c9d35</bs:uuid>
+                     <bs:guid>89b1c933-6a87-4c18-9850-cc2a609fceca</bs:guid>
+                     <bs:active>true</bs:active>
+                     <bs:last>true</bs:last>
+                     <bs:status>100</bs:status>
+                     <bs:createDate>2024-07-19T10:55:01+03:00</bs:createDate>
+                     <bs:updateDate>2024-07-19T10:55:01+03:00</bs:updateDate>
+                     <vd:identityType>INDIVIDUAL</vd:identityType>
+                     <vd:registrationNumber>RU12aa0000PON5</vd:registrationNumber>
+                     <vd:registrationStatus>ACTIVE</vd:registrationStatus>
+                     <vd:initialIdentificationType>OTHER</vd:initialIdentificationType>
+                     <vd:specifiedAnimal>
+                        <dt:species>
+                           <bs:guid>a4588321-f300-4c85-840b-9414c371addd</bs:guid>
+                           <dt:name>Крупный рогатый скот</dt:name>
+                           <dt:code>2aa</dt:code>
+                        </dt:species>
+                        <dt:gender>FEMALE</dt:gender>
+                        <dt:name>13-7061</dt:name>
+                        <dt:weight>
+                           <dt:value>444.0</dt:value>
+                           <dt:unit>
+                              <dt:name>кг</dt:name>
+                           </dt:unit>
+                        </dt:weight>
+                        <dt:birthDate>
+                           <bs:year>2017</bs:year>
+                           <bs:month>12</bs:month>
+                           <bs:day>19</bs:day>
+                        </dt:birthDate>
+                     </vd:specifiedAnimal>
+                     <vd:specifiedAnimalIdentity>
+                        <bs:guid>b8c78857-a5d3-4daa-8ba5-41588748e5ab</bs:guid>
+                        <vd:identityStatus>ACTIVE</vd:identityStatus>
+                        <vd:attachedLabel>
+                           <dt:animalID format="OTHER">13-7061</dt:animalID>
+                           <dt:type>ADDITIONAL</dt:type>
+                           <dt:markingMeans>
+                              <dt:type>LABEL</dt:type>
+                           </dt:markingMeans>
+                           <dt:attachmentLocation>
+                              <bs:guid>ca878fa9-a995-019e-22b9-7bb0e4b5aa90</bs:guid>
+                              <dt:name>внутренняя часть левого уха</dt:name>
+                           </dt:attachmentLocation>
+                        </vd:attachedLabel>
+                        <vd:associatedMarkingEvent>
+                           <vd:type>AME</vd:type>
+                           <vd:actualDate>
+                              <bs:date>
+                                 <bs:year>2017</bs:year>
+                                 <bs:month>12</bs:month>
+                                 <bs:day>19</bs:day>
+                              </bs:date>
+                           </vd:actualDate>
+                        </vd:associatedMarkingEvent>
+                     </vd:specifiedAnimalIdentity>
+                     <vd:keepingDetails>
+                        <vd:operatorSupervisedObject>
+                           <bs:guid>e31acfc3-114b-4607-8f57-168740772923</bs:guid>
+                           <dt:approvalNumber>RU-068/UX03545</dt:approvalNumber>
+                           <dt:approvedName>Тест</dt:approvedName>
+                        </vd:operatorSupervisedObject>
+                        <vd:keepingType>
+                           <bs:guid>99e904cc-a48c-438f-86b4-3f5e28dbd07c</bs:guid>
+                           <dt:name>Содержание в закрытом помещении с выгулом на ограниченной территории</dt:name>
+                        </vd:keepingType>
+                        <vd:keepingPurpose>
+                           <bs:guid>b8c2917d-dcc8-489a-803a-eeecb4822cb9</bs:guid>
+                           <dt:name>Для получения подконтрольных госветнадзору товаров, предназначенных в пищу</dt:name>
+                        </vd:keepingPurpose>
+                     </vd:keepingDetails>
+                     <vd:breedingValueType>UNDEFINED</vd:breedingValueType>
+                  </hrt:animalRegistration>
+               </hrt:getAnimalRegistrationByUuidResponse>
+            </result>
+         </application>
+      </receiveApplicationResultResponse>
+   </soap:Body>
+</soap:Envelope>

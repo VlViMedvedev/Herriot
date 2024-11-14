@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:apl="http://api.vetrf.ru/schema/cdm/application"
+xmlns:apldef="http://api.vetrf.ru/schema/cdm/application/ws-definitions">
+<SOAP-ENV:Header/>
+<SOAP-ENV:Body>
+<apldef:submitApplicationRequest>
+<apldef:apiKey>NDcxODFmYWEtYmEzYS00NWI1LTg2MDAtNjExZjA1NzBjNTRmMzA3OWFmYzctMDBlYS00MWQyLTgyYjYtZGI2ZjBmMjllMTlk</apldef:apiKey>
+<apl:application>
+<apl:serviceId>herriot.service:1.0</apl:serviceId>
+<apl:issuerId>3079afc7-00ea-41d2-82b6-db6f0f29e19d</apl:issuerId>
+<apl:issueDate>2024-07-04T00:00:00</apl:issueDate>
+<apl:data>
+
+
+<hrt:getAnimalRegistrationHistoryRequest xmlns:dt="http://api.vetrf.ru/schema/cdm/dictionary/v2"
+xmlns:bs="http://api.vetrf.ru/schema/cdm/base"
+xmlns:hrt="http://api.vetrf.ru/schema/cdm/herriot/applications/v1" 
+xmlns:vd="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2">
+
+<hrt:localTransactionId>00000000-0000-0000-0000-000000000001</hrt:localTransactionId>
+<hrt:initiator>
+<vd:login>fashutdinov_aa_240624</vd:login>
+</hrt:initiator>
+
+<hrt:animalRegistrationGuid>f71909e5-2381-4af2-8d2e-8d4c95e9f59e</hrt:animalRegistrationGuid>
+</hrt:getAnimalRegistrationHistoryRequest>
+
+</apl:data>
+</apl:application>
+</apldef:submitApplicationRequest>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
